@@ -6,7 +6,6 @@ from playsound import playsound
 import webbrowser
 import tkinter as tk
 
-
 def listen(recognizer, audio):
     try:
         text = recognizer.recognize_google(audio, language='ko')
