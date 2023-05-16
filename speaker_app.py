@@ -56,6 +56,7 @@ def play_music(url):
     webbrowser.open_new(url)
 
 
+
 root = tk.Tk()
 root.title('AI Speaker')
 
